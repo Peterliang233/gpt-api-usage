@@ -4,7 +4,6 @@ from config import coze_api_token, coze_bot_id
 
 
 
-
 from cozepy import Coze, TokenAuth, Message, ChatStatus, MessageContentType, ChatEventType, COZE_CN_BASE_URL
 
 coze = Coze(auth=TokenAuth(token=coze_api_token), base_url=COZE_CN_BASE_URL)
