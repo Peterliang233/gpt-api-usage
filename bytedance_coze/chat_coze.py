@@ -1,14 +1,14 @@
 import os, sys
 
-coze_api_token = os.getenv("COZE_API_TOKEN")
+from config import coze_api_token, coze_bot_id
 
-my_bot_id = os.getenv("COZE_BOT_ID")
+
 
 from cozepy import Coze, TokenAuth, Message, ChatStatus, MessageContentType, ChatEventType, COZE_CN_BASE_URL
 
 coze = Coze(auth=TokenAuth(token=coze_api_token), base_url=COZE_CN_BASE_URL)
 
-bot_id = my_bot_id
+bot_id = coze_bot_id
 
 user_id = "user id"
 
