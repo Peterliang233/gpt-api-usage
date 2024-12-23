@@ -7,3 +7,5 @@ coze_bot_id = os.getenv("COZE_BOT_ID")
 tencentcloud_secret_key = os.getenv("TENCENTCLOUD_SECRET_KEY")
 
 tencentcloud_secret_id = os.getenv("TENCENTCLOUD_SECRET_ID")
+
+ali_api_key = os.getenv("ALI_API_KEY")
