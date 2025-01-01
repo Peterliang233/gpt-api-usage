@@ -1,3 +1,5 @@
 ./idea
 *.xml
+.vscode/
 __pycache__/
+.*
